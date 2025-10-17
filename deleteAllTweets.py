@@ -1,7 +1,7 @@
-#so you want to delete all your tweets...
+# so you want to delete all your tweets...
 
-# a deloper account is required, in order to get your api key. dont 
-#worry, the free version is enough, with this method. 
+# a developer account is required, in order to get your api key. don't 
+# worry, the free version is enough, with this method. 
 
 # here is a ai summary of how to get a developer account:
 
@@ -30,7 +30,7 @@ where you can create and manage your apps, generate API keys, and monitor usage.
 Within the dashboard, create a new app. This will provide you with the necessary API keys and tokens 
 to authenticate your requests to X’s API."""
 
-#this method requires requesting your archive. heres a ai summary of how to do that:
+# this method requires requesting your archive. heres a ai summary of how to do that:
 
 """Log in to Twitter:
 
@@ -55,7 +55,7 @@ Extract the Archive:
 
 Unzip the file to access your data, including tweets, media, and account information."""
 
-#fill out the file location of the 'tweets.js' file. find file, under a couple of layers
+# fill out the file location of the 'tweets.js' file. find file, under a couple of folder layers
 # (its in a data folder) press get info, copy the location
 
 file_location = " "
@@ -110,8 +110,6 @@ except Exception as e:
     exit()
 
 tweet_ids_to_delete = []
-#print(tweets)api.destroy_status("1928491557566451977")
-#print(tweets)
 
 
 for tweet in tweets:
